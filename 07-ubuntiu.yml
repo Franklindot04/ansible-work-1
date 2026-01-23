@@ -4,7 +4,7 @@
   become: yes
 
   tasks:
-  - name: install apache
+  - name: install Apache2
     apt:
       name: apache2
       state: present
@@ -14,7 +14,7 @@
       name: apache2
       state: started
 
-  - name: Enable apache2
+  - name: Enable Apache2
     service:
       name: apache2
       enabled: yes
