@@ -1,0 +1,17 @@
+---
+- name: Deploy Web App
+  hosts: n2
+  become: yes
+
+  tasks:
+  - name: install Git
+    yum:
+      name: git
+      state: present
+
+  - name: Host code
+    git:
+      repo: https://github.com/Franklindot04/food3.git
+      dest: /var/www/html
+
+...
