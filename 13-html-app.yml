@@ -1,0 +1,13 @@
+---
+- name: Deploy Web App
+  hosts: n3
+  become: yes
+
+  roles:
+    - apache
+    - html
+...
+
+
+
+
