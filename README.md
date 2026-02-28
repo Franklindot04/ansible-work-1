@@ -1,6 +1,6 @@
 # Ansible Automation Playbooks
 
-This repository contains a collection of Ansible playbooks created as part of my DevOps automation .  
+This repository contains a collection of Ansible playbooks created as part of my DevOps automation practice.  
 It includes 15+ playbooks, templates, variables, and configuration files designed to automate common Linux server tasks, application deployments, and system maintenance workflows.
 
 ## 📌 What’s Included
